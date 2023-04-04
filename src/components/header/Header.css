@@ -1,0 +1,113 @@
+header {
+    /* background: yellow; */
+    height: 100vh;
+    padding-top: 2rem;
+    /* overflow: hidden; */
+}
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* cta */
+.cta {
+   margin-top: 2.5rem;
+   display: flex;
+   gap: 1.2rem;
+   justify-content: center;
+}
+
+
+/* header-socials */
+
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header_socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+.me{
+    background: linear-gradient(var(--color-primary), transparent) ;
+    width: 22rem;
+    height: 20rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem;
+   
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+  
+}
+.me1{
+    width: 22rem;
+    height: 20rem;
+    border-radius: 35rem  ;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.scroll_down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+header{
+    height: 68vh;
+}
+}
+
+
+
+@media screen and (max-width: 600px) {
+header{
+    height: 100vh;
+    /* margin-left: 2rem ; */
+}
+.header_socials, .scroll_down {
+    display: none;
+}
+.me{
+    margin: 2rem;
+    width: 18rem;
+    height: 18rem;   
+}
+.me1{
+    width: 18rem;
+    height: 18rem;
+}
+}
+
+/* faltu */
+.waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(8s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }

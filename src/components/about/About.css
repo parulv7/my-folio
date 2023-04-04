@@ -1,0 +1,120 @@
+
+.about_container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+.about_me{
+   
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+transition: var(--transition) ;
+}
+.about_me_image{
+    width: 19.4rem;
+    height: 19rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    border-radius: 2rem;
+}
+.about_me_image:hover{
+    transform: rotate(0deg);
+}
+.about__cards{
+    width: fit-content;
+    
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.about_card{
+background: var(--color-bg-variant) ;
+   border-radius: 1rem;
+   border: 1px solid transparent;
+   padding: 2rem;
+   text-align: center;
+   transition: var(--transition);
+}
+.about_card:hover{
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+}
+.about_icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.about_card h5{
+    font-size: 0.95rem;
+}
+.about_card small{
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+.about_p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+@media screen and (max-width: 1024px) {
+.about_container{
+    margin-top: 10rem;
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+.about_me{
+    width: 16rem;
+    height: auto;
+    align-items: center;
+}
+
+}
+
+@media screen and (max-width: 600px){
+    .about_me{
+        width: 12rem;
+        height: 15rem;
+        margin: auto; 
+        /* margin: 1rem 0 1.5rem;
+      
+        /* display: inline; */
+    }
+    
+    .about_me_image{
+        width: 12rem;
+        height: 15rem;
+    }
+   .about__cards{
+    
+    margin-top: 3rem;
+    /* margin: 1rem; */
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3rem;
+   }
+   .about_p{
+    padding: 0.2rem;
+    margin: 1rem auto  ;
+    height: fit-content;
+    justify-content: center;
+    text-align: center;
+   }
+   .about_card{
+   
+    /* width: 80%; */
+    padding: 2rem;
+   }
+  
+
+   .btn_center{
+    margin: 1rem 6.3rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   }
+}
