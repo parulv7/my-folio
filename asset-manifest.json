@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-folio/static/css/main.e8562f3d.css",
+    "main.js": "/my-folio/static/js/main.bd2d84f9.js",
+    "static/js/787.be32f100.chunk.js": "/my-folio/static/js/787.be32f100.chunk.js",
+    "static/media/fitclub.jpg": "/my-folio/static/media/fitclub.dd4c493adde0f33f3049.jpg",
+    "static/media/contact.jpg": "/my-folio/static/media/contact.c022ef6a4ae1a256610b.jpg",
+    "static/media/sparsham.jpg": "/my-folio/static/media/sparsham.16000f70b8ab469257d7.jpg",
+    "static/media/pic.jpeg": "/my-folio/static/media/pic.2d7f4b80a2659c2bfc3a.jpeg",
+    "static/media/CV.pdf": "/my-folio/static/media/CV.f6ed8edb5d41612f5a16.pdf",
+    "index.html": "/my-folio/index.html",
+    "main.e8562f3d.css.map": "/my-folio/static/css/main.e8562f3d.css.map",
+    "main.bd2d84f9.js.map": "/my-folio/static/js/main.bd2d84f9.js.map",
+    "787.be32f100.chunk.js.map": "/my-folio/static/js/787.be32f100.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8562f3d.css",
+    "static/js/main.bd2d84f9.js"
+  ]
+}
