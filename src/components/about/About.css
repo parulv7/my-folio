@@ -73,8 +73,12 @@ background: var(--color-bg-variant) ;
     height: auto;
     align-items: center;
 }
+.btn_center{
+    align-items: center;
+}
 
 }
+
 
 @media screen and (max-width: 600px){
     .about_me{
@@ -91,11 +95,12 @@ background: var(--color-bg-variant) ;
         height: 15rem;
     }
    .about__cards{
-    
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+    margin: 3rem 0.5rem;
+    width: 100%;
     /* margin: 1rem; */
     grid-template-columns: 1fr 1fr;
-    gap: 0.3rem;
+    gap: 1rem;
    }
    .about_p{
     padding: 0.2rem;
@@ -106,13 +111,14 @@ background: var(--color-bg-variant) ;
    }
    .about_card{
    
-    /* width: 80%; */
+    width: 100%;
     padding: 2rem;
    }
   
 
    .btn_center{
-    margin: 1rem 6.3rem;
+    width: 100%;
+    /* margin: 1rem 6.3rem; */
     align-items: center;
     text-align: center;
     justify-content: center;
