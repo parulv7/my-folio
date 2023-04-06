@@ -118,7 +118,6 @@ background: var(--color-bg-variant) ;
 
    .btn_center{
     width: 100%;
-    /* margin: 1rem 6.3rem; */
     align-items: center;
     text-align: center;
     justify-content: center;
