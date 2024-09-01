@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/my-folio/static/css/main.46060f99.css",
-    "main.js": "/my-folio/static/js/main.b5099313.js",
+    "main.css": "/my-folio/static/css/main.1d672c1b.css",
+    "main.js": "/my-folio/static/js/main.09cdec84.js",
     "static/js/787.be32f100.chunk.js": "/my-folio/static/js/787.be32f100.chunk.js",
     "static/media/fitclub.jpg": "/my-folio/static/media/fitclub.dd4c493adde0f33f3049.jpg",
+    "static/media/CV.pdf": "/my-folio/static/media/CV.ae9f1eda53a417c26acd.pdf",
     "static/media/contact.jpg": "/my-folio/static/media/contact.c022ef6a4ae1a256610b.jpg",
     "static/media/sparsham.jpg": "/my-folio/static/media/sparsham.16000f70b8ab469257d7.jpg",
+    "static/media/img3.png": "/my-folio/static/media/img3.457c6f42e2136b7590db.png",
     "static/media/pic.jpeg": "/my-folio/static/media/pic.2d7f4b80a2659c2bfc3a.jpeg",
-    "static/media/CV.pdf": "/my-folio/static/media/CV.f6ed8edb5d41612f5a16.pdf",
+    "static/media/C2.jpeg": "/my-folio/static/media/C2.5cff31815119af701869.jpeg",
+    "static/media/C1.jpeg": "/my-folio/static/media/C1.0f99705d569d99bd1f5d.jpeg",
     "index.html": "/my-folio/index.html",
-    "main.46060f99.css.map": "/my-folio/static/css/main.46060f99.css.map",
-    "main.b5099313.js.map": "/my-folio/static/js/main.b5099313.js.map",
+    "main.1d672c1b.css.map": "/my-folio/static/css/main.1d672c1b.css.map",
+    "main.09cdec84.js.map": "/my-folio/static/js/main.09cdec84.js.map",
     "787.be32f100.chunk.js.map": "/my-folio/static/js/787.be32f100.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46060f99.css",
-    "static/js/main.b5099313.js"
+    "static/css/main.1d672c1b.css",
+    "static/js/main.09cdec84.js"
   ]
 }
